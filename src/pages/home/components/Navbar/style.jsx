@@ -7,7 +7,7 @@ export const NavbarWrapper = styled("section")`
   position: fixed;
   width: 100%;
   color: ${theme.white};
-  background-color: ${theme.secondary};
+  background-color: ${theme.black};
 `;
 export const NavContainer = styled("div")`
   label: NavContainer;

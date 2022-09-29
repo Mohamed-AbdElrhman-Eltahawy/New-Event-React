@@ -4,7 +4,7 @@ import header from "images/intro-bg.jpg";
 
 export const HeaderWrapper = styled("section")`
   label: HeaderWrapper;
-  height: 100vh;
+  height: 700px;
   padding: 20% 0;
   text-align: center;
   background-size: cover;
