@@ -1,5 +1,6 @@
 import { Div, DivTow, P, Span, SubTitle, WatchVideoWrapper } from "./style";
 
+const Link = "https://www.youtube.com/embed/XDPwXQjAlB0";
 export default function WatchVideo() {
   return (
     <div className="container">
@@ -21,7 +22,7 @@ export default function WatchVideo() {
           <iframe
             width="100%"
             height="350px"
-            src="https://www.youtube.com/embed/XDPwXQjAlB0"
+            src={Link}
             frameborder="0"
           ></iframe>
         </DivTow>
