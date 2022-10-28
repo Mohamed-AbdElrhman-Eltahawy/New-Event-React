@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs/AboutUs";
+import AccordionComponent from "./components/AccordionComponent";
 import CreativeSpeakersComponent from "./components/CreativeSpeakers/CreativeSpeakers";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ export default function Home() {
       <CreativeSpeakersComponent />
       <OurPrograms />
       <RegisterHere />
+      <AccordionComponent />
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Name,Jobs, SpeakersWrapper } from "./style";
+
 export default function CreativeSpeakers({ img, name, Job, alt }) {
   return (
     <SpeakersWrapper>
