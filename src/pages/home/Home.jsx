@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import OurPrograms from "./components/OurPrograms/OurPrograms";
 import Overview from "./components/Overview/Overview";
 import RegisterHere from "./components/RegisterHere/RegisterHere";
+import Venue from "./components/Venue/Venue";
 import WatchVideo from "./components/WatchVideo/WatchVideo";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <OurPrograms />
       <RegisterHere />
       <AccordionComponent />
+      <Venue />
     </>
   );
 }

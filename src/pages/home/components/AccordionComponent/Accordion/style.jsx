@@ -4,7 +4,6 @@ import theme from "design-system/config";
 export const Wrapper = styled("div")`
   label: Wrapper;
   display: flex;
-  height: 500px;
   align-items: center;
   justify-content: center;
 `;
