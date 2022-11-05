@@ -1,10 +1,10 @@
 import OurProgramsComponent from "design-system/components/OurPrograms/OurPrograms";
 import {
-  tab1,
-  tab2,
-  tab3,
+    tab1,
+    tab2,
+    tab3
 } from "design-system/components/OurPrograms/OurProgramsData";
-import theme from "design-system/config";
+import { theme } from "design-system/config";
 import React, { useState } from "react";
 import { Line, Span, Wrapper } from "./style";
 

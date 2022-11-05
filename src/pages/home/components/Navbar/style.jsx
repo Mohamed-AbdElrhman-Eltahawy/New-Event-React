@@ -1,11 +1,12 @@
 import styled from "@emotion/styled";
-import theme from "design-system/config";
+import { theme } from "design-system/config";
 
 export const NavbarWrapper = styled("section")`
   label: NavbarWrapper;
   padding: 1.5rem 0;
-  position: fixed;
   width: 100%;
+  z-index: 2;
+  position: fixed;
   color: ${theme.white};
   background-color: ${theme.black};
 `;

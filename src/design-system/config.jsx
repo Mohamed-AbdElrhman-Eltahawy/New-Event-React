@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
   white: "#fff",
   black: "#222",
   gray: "#707070",
@@ -8,4 +8,4 @@ const theme = {
   whiteSmoke: "#f5f5f5",
 };
 
-export default theme;
+export const madeBy = "Mohamed Eltahawy";

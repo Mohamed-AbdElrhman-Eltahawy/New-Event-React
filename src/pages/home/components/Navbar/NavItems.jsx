@@ -1,4 +1,4 @@
-import theme from "design-system/config";
+import { theme } from "design-system/config";
 import { useLocation } from "react-router-dom";
 import links from "./Links";
 import NavLinks from "./NavLinks";

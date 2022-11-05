@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import theme from "design-system/config";
+import { theme } from "design-system/config";
 import venue from "images/venue.jpg";
 
 export const VenueWrapper = styled("section")`

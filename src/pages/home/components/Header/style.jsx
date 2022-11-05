@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import theme from "design-system/config";
+import { theme } from "design-system/config";
 import header from "images/intro-bg.jpg";
 
 export const HeaderWrapper = styled("section")`

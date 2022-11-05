@@ -49,7 +49,7 @@ export default function ContactUs() {
                   <TextArea placeholder="Message" />
                 </InputsWrapper>
                 <div>
-                    <SendNow>Send Now</SendNow>
+                  <SendNow>Send Now</SendNow>
                 </div>
               </form>
             </div>
