@@ -1,9 +1,11 @@
 import AboutUs from "./components/AboutUs/AboutUs";
 import AccordionComponent from "./components/AccordionComponent";
+import ContactUs from "./components/ContactUs/ContactUs";
 import CreativeSpeakersComponent from "./components/CreativeSpeakers/CreativeSpeakers";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar";
 import OurPrograms from "./components/OurPrograms/OurPrograms";
+import OurSponsorsComponent from "./components/OurSponsors/OurSponsors";
 import Overview from "./components/Overview/Overview";
 import RegisterHere from "./components/RegisterHere/RegisterHere";
 import Venue from "./components/Venue/Venue";
@@ -22,6 +24,8 @@ export default function Home() {
       <RegisterHere />
       <AccordionComponent />
       <Venue />
+      <OurSponsorsComponent />
+      <ContactUs />
     </>
   );
 }
